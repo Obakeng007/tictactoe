@@ -11,6 +11,7 @@ const Squarestyling ={
     placeItems: 'center'
   }
 
+
 export function Square({value, selectSquare}){
 
    return <div style={ Squarestyling } onClick={selectSquare}>

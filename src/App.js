@@ -38,7 +38,18 @@ function App() {
       }
       return value;
     })
-  )};
+
+  )
+
+    if (isPlayer === ("X")){
+      setPlayer("O")
+    }
+    else { (setPlayer("X"))}
+
+  };
+
+ 
+  
   return (
     <div style={ boardBody }>
       <div style={ boardstyling }>
